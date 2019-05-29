@@ -139,7 +139,22 @@ returns value in web browser:
 value: "lion"
 }
 ```
+16.  Now deploy the app
 
+```bash
+gcloud app deploy
+```
+
+Warning first deploy could take about 10 minutes
+
+```bash
+
+Do you want to continue (Y/n)?  y
+Beginning deployment of service [default]...
+╔════════════════════════════════════════════════════════════╗
+╠═ Uploading 934 files to Google Cloud Storage              ═╣
+
+```
 
 ## Reference
 
