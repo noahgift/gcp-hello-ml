@@ -84,6 +84,44 @@ this should install flask
 Flask==1.0.2
 ```
 
+12.  run flask locally
+
+this runs flask locally in gcp shell
+
+
+```bash
+python main.py
+```
+
+13.  preview 
+
+![preview](https://user-images.githubusercontent.com/58792/58594280-fb1ca180-8221-11e9-8934-736b5ea05f1f.png)
+
+
+14.  update main.py
+
+```python
+
+from flask import Flask
+from flask import jsonify
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello():
+    """Return a friendly HTTP greeting."""
+    return 'Hello I like to make AI Apps'
+
+@app.route('/name/<value>')
+def name(value):
+    val = {"value": value}
+    return jsonify(val)
+
+if __name__ == '__main__':
+    app.run(host='127.0.0.1', port=8080, debug=True)
+```
+
+
 ## Reference
 
 * [Github Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
