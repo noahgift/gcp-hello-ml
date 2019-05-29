@@ -68,6 +68,21 @@ which python
 /home/noah_gift/python-docs-samples/appengine/standard_python37/hello_world/venv/bin/python
 ```
 
+10.  activate cloud shell editor
+
+![code editor](https://user-images.githubusercontent.com/58792/58593852-f60b2280-8220-11e9-850d-9858585be42e.png)
+
+11.  install packages:
+
+```bash
+pip -r requirements.txt
+```
+
+this should install flask
+
+```
+Flask==1.0.2
+```
 
 ## Reference
 
