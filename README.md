@@ -164,6 +164,28 @@ Beginning deployment of service [default]...
 gcloud app logs tail -s default
 ```
 
+18.  The production app is deployed and should like this:
+
+```bash
+
+Setting traffic split for service [default]...done.
+Deployed service [default] to [https://helloml-xxx.appspot.com]
+You can stream logs from the command line by running:
+  $ gcloud app logs tail -s default
+
+  $ gcloud app browse
+(venv) noah_gift@cloudshell:~/python-docs-samples/appengine/standard_python37/hello_world (helloml-242121)$ gcloud app
+ logs tail -s default
+Waiting for new log entries...
+2019-05-29 22:45:02 default[20190529t150420]  [2019-05-29 22:45:02 +0000] [8] [INFO] Starting gunicorn 19.9.0
+2019-05-29 22:45:02 default[20190529t150420]  [2019-05-29 22:45:02 +0000] [8] [INFO] Listening at: http://0.0.0.0:8081
+ (8)
+2019-05-29 22:45:02 default[20190529t150420]  [2019-05-29 22:45:02 +0000] [8] [INFO] Using worker: threads
+2019-05-29 22:45:02 default[20190529t150420]  [2019-05-29 22:45:02 +0000] [25] [INFO] Booting worker with pid: 25
+2019-05-29 22:45:02 default[20190529t150420]  [2019-05-29 22:45:02 +0000] [27] [INFO] Booting worker with pid: 27
+2019-05-29 22:45:04 default[20190529t150420]  "GET /favicon.ico HTTP/1.1" 404
+2019-05-29 22:46:25 default[20190529t150420]  "GET /name/usf HTTP/1.1" 200
+
 ## Reference
 
 * [Github Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
@@ -171,3 +193,5 @@ gcloud app logs tail -s default
 michael was here
 * [cloudshell quick start](https://cloud.google.com/shell/docs/quickstart)
 * [how do I switch projects](https://stackoverflow.com/questions/46770900/how-to-change-the-project-in-gcp-using-cli-commands)
+
+```
