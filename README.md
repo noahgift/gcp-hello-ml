@@ -75,7 +75,7 @@ which python
 11.  install packages:
 
 ```bash
-pip -r requirements.txt
+pip install -r requirements.txt
 ```
 
 this should install flask
