@@ -31,6 +31,29 @@ projectNumber: '881692383648'
 gcloud config set project helloml-xxx
 ```
 
+6.  Create app engine app:
+
+```bash
+gcloud app create 
+```
+this will ask for the region.  Go ahead and pick us-central [12]
+
+```bash
+Creating App Engine application in project [helloml-xxx] and region [us-central]....done.
+Success! The app is now created. Please use `gcloud app deploy` to deploy your first app.
+```
+7.  Clone the hello world sample app repo:
+
+```bash
+git clone https://github.com/GoogleCloudPlatform/python-docs-samples
+```
+
+8.  cd into the repo:
+
+```bash
+cd python-docs-samples/appengine/standard_python37/hello_world
+```
+
 ## Reference
 
 * [Github Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
