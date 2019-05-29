@@ -54,6 +54,21 @@ git clone https://github.com/GoogleCloudPlatform/python-docs-samples
 cd python-docs-samples/appengine/standard_python37/hello_world
 ```
 
+9.  create and source the virtual environment:
+
+```bash
+virtualenv venv
+source venv/bin/activate
+```
+
+double check it works:
+
+```bash
+which python
+/home/noah_gift/python-docs-samples/appengine/standard_python37/hello_world/venv/bin/python
+```
+
+
 ## Reference
 
 * [Github Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
