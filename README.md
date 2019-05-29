@@ -25,6 +25,12 @@ projectId: helloml-xxxxx
 projectNumber: '881692383648'
 ```
 
+5.  You may want to verify you have the correct project and if not, do this to switch:
+
+```bash
+gcloud config set project helloml-xxx
+```
+
 ## Reference
 
 * [Github Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
