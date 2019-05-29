@@ -235,6 +235,13 @@ def pandas_sugar():
 
 ```
 
+When you call the route ```https://<yourapp>.appspot.com/pandas```
+
+you should get something like this:
+
+![example out](https://user-images.githubusercontent.com/58792/58598673-2a3b0f00-8232-11e9-9621-9aa094511a46.png)
+
+
 ## Reference
 
 * [Github Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
