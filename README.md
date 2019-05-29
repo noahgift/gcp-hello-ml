@@ -30,3 +30,4 @@ projectNumber: '881692383648'
 * [Github Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
 * [hello world python 3 docs](https://cloud.google.com/appengine/docs/standard/python3/quickstart)
 michael was here
+* [cloudshell quick start](https://cloud.google.com/shell/docs/quickstart)
