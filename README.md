@@ -219,6 +219,21 @@ Your code has been rated at 10.00/10
 
 ```
 
+Route looks like this:
+
+add pandas import at top:
+
+```python
+import pandas as pd
+```
+
+```python
+@app.route('/pandas')
+def pandas_sugar():
+    df = pd.read_csv("https://raw.githubusercontent.com/noahgift/sugar/master/data/education_sugar_cdc_2003.csv")
+    return jsonify(df.to_json())
+```
+
 ## Reference
 
 * [Github Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
