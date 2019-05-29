@@ -199,6 +199,19 @@ def html():
     <p><b>World</b></p>
     """
 ```
+
+20.  Install pandas and return json results
+
+At this point, you may want to consider creating a Makefile and do this:
+
+```bash
+touch Makefile
+#this goes inside that file
+install:
+	pip install -r requirements.txt
+```
+
+
 ## Reference
 
 * [Github Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
@@ -206,5 +219,6 @@ def html():
 michael was here
 * [cloudshell quick start](https://cloud.google.com/shell/docs/quickstart)
 * [how do I switch projects](https://stackoverflow.com/questions/46770900/how-to-change-the-project-in-gcp-using-cli-commands)
+* [more information about project setup](https://github.com/noahgift/myrepo)
 
 
