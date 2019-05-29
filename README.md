@@ -210,7 +210,14 @@ touch Makefile
 install:
 	pip install -r requirements.txt
 ```
+you also may want to setup lint:
 
+```
+pylint --disable=R,C main.py
+------------------------------------
+Your code has been rated at 10.00/10
+
+```
 
 ## Reference
 
