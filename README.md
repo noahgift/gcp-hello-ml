@@ -121,6 +121,25 @@ if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8080, debug=True)
 ```
 
+15.  Test out passing in parameters to exercise this function:
+
+```python
+@app.route('/name/<value>')
+def name(value):
+    val = {"value": value}
+    return jsonify(val)
+```
+For example, calling this route will take the word lion and pass into the name function in flask:
+```bash
+https://8080-dot-3104625-dot-devshell.appspot.com/name/lion
+```
+returns value in web browser:
+```python
+{
+value: "lion"
+}
+```
+
 
 ## Reference
 
