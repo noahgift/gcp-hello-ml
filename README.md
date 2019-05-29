@@ -31,3 +31,4 @@ projectNumber: '881692383648'
 * [hello world python 3 docs](https://cloud.google.com/appengine/docs/standard/python3/quickstart)
 michael was here
 * [cloudshell quick start](https://cloud.google.com/shell/docs/quickstart)
+* [how do I switch projects](https://stackoverflow.com/questions/46770900/how-to-change-the-project-in-gcp-using-cli-commands)
