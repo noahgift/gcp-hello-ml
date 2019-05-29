@@ -185,7 +185,20 @@ Waiting for new log entries...
 2019-05-29 22:45:02 default[20190529t150420]  [2019-05-29 22:45:02 +0000] [27] [INFO] Booting worker with pid: 27
 2019-05-29 22:45:04 default[20190529t150420]  "GET /favicon.ico HTTP/1.1" 404
 2019-05-29 22:46:25 default[20190529t150420]  "GET /name/usf HTTP/1.1" 200
+```
 
+19.  Add a new route and test it out
+
+```python
+@app.route('/html')
+def html():
+    """Returns some custom HTML"""
+    return """
+    <title>This is a Hello World World Page</title>
+    <p>Hello</p>
+    <p><b>World</b></p>
+    """
+```
 ## Reference
 
 * [Github Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
@@ -194,4 +207,4 @@ michael was here
 * [cloudshell quick start](https://cloud.google.com/shell/docs/quickstart)
 * [how do I switch projects](https://stackoverflow.com/questions/46770900/how-to-change-the-project-in-gcp-using-cli-commands)
 
-```
+
