@@ -146,6 +146,7 @@ gcloud app deploy
 ```
 
 Warning first deploy could take about 10 minutes
+FYI!!! you may also need to enable cloud build API.
 
 ```bash
 
@@ -154,6 +155,13 @@ Beginning deployment of service [default]...
 ╔════════════════════════════════════════════════════════════╗
 ╠═ Uploading 934 files to Google Cloud Storage              ═╣
 
+```
+
+
+17.  Now stream the log files:
+
+```bash
+gcloud app logs tail -s default
 ```
 
 ## Reference
