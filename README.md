@@ -231,7 +231,8 @@ import pandas as pd
 @app.route('/pandas')
 def pandas_sugar():
     df = pd.read_csv("https://raw.githubusercontent.com/noahgift/sugar/master/data/education_sugar_cdc_2003.csv")
-    return jsonify(df.to_json())
+    return jsonify(df.to_dict())
+
 ```
 
 ## Reference
