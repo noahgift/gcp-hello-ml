@@ -256,7 +256,9 @@ def wikipedia_route(company):
 
 22. Add NLP to app:
 
-https://github.com/noahgift/recommendations/blob/master/notebooks/NLP_GCP.ipynb
+A.  https://github.com/noahgift/recommendations/blob/master/notebooks/NLP_GCP.ipynb
+B.  Enable Cloud Natural Language API
+C.
 
 ## Reference
 
@@ -267,5 +269,5 @@ michael was here
 * [how do I switch projects](https://stackoverflow.com/questions/46770900/how-to-change-the-project-in-gcp-using-cli-commands)
 * [more information about project setup](https://github.com/noahgift/myrepo)
 * [nlp google](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/language)
-
+* [nlp gcp](https://www.freecodecamp.org/news/how-to-make-your-own-sentiment-analyzer-using-python-and-googles-natural-language-api-9e91e1c493e/)
 
