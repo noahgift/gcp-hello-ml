@@ -261,5 +261,6 @@ michael was here
 * [cloudshell quick start](https://cloud.google.com/shell/docs/quickstart)
 * [how do I switch projects](https://stackoverflow.com/questions/46770900/how-to-change-the-project-in-gcp-using-cli-commands)
 * [more information about project setup](https://github.com/noahgift/myrepo)
+* [nlp google](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/language)
 
 
