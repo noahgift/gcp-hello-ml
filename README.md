@@ -253,6 +253,11 @@ def wikipedia_route(company):
     result = wikipedia.summary(company, sentences=10)
     return result
 ````
+
+22. Add NLP to app:
+
+https://github.com/noahgift/recommendations/blob/master/notebooks/NLP_GCP.ipynb
+
 ## Reference
 
 * [Github Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
