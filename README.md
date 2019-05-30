@@ -260,6 +260,24 @@ A.  https://github.com/noahgift/recommendations/blob/master/notebooks/NLP_GCP.ip
 B.  Enable Cloud Natural Language API
 C.
 
+
+test it out in IPython
+
+```python
+In [1]: from google.cloud import language
+   ...: from google.cloud.language import enums
+   ...: 
+   ...: from google.cloud.language import types
+In [2]: 
+In [2]: text = "LeBron James plays for the Cleveland Cavaliers."
+   ...: client = language.LanguageServiceClient()
+   ...: document = types.Document(
+   ...:         content=text,
+   ...:         type=enums.Document.Type.PLAIN_TEXT)
+   ...: entities = client.analyze_entities(document).entities
+In [3]: entities
+```
+
 ## Reference
 
 * [Github Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
