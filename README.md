@@ -258,7 +258,7 @@ def wikipedia_route(company):
 
 A.  https://github.com/noahgift/recommendations/blob/master/notebooks/NLP_GCP.ipynb
 B.  Enable Cloud Natural Language API
-C.
+C.  ```pip install google-cloud-language```
 
 
 test it out in IPython
