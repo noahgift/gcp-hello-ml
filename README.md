@@ -241,7 +241,18 @@ you should get something like this:
 
 ![example out](https://user-images.githubusercontent.com/58792/58598673-2a3b0f00-8232-11e9-9621-9aa094511a46.png)
 
+21.Add this wikipedia route
 
+```python
+import wikipedia
+```
+
+```python
+@app.route('/wikipedia/<company>')
+def wikipedia_route(company):
+    result = wikipedia.summary(company, sentences=10)
+    return result
+````
 ## Reference
 
 * [Github Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
