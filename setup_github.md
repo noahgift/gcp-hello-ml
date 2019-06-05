@@ -31,4 +31,5 @@ i4mQCVoMgB6MBTLuKrQNkYCRPI8
 i4mQCVoMgB6MBTLuKrQNkYCRPI8
 blah...
 ```
-
+D.  go to profile and add ssh-key (public key!!!).
+E.  git clone your repo using ssh.
