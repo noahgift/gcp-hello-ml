@@ -79,3 +79,15 @@ jupyter
 then install:
 
 ```make install```
+
+6.  Check everything into github
+
+this should show two files need to be added: ```Makefile``` and ```requirements```
+```git status```
+
+to add:
+
+```git add *```
+```git status```
+```git commit -m "adding makefile"```
+```git push``` #note you may need to configure your name and email.  Go ahead and do this.
