@@ -75,3 +75,7 @@ pytest
 black
 jupyter
 ```
+
+then install:
+
+```make install```
