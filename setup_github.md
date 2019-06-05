@@ -22,6 +22,11 @@ C.  Print out public key to stdout
 
 ```
 cat ~/.ssh/id_rsa.pub
+```
+
+Will look like this:
+
+```
 i4mQCVoMgB6MBTLuKrQNkYCRPI8
 i4mQCVoMgB6MBTLuKrQNkYCRPI8
 blah...
