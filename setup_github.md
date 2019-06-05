@@ -34,7 +34,20 @@ blah...
 D.  go to profile and add ssh-key (public key!!!).
 E.  git clone your repo using ssh.
 
+* How to do this in Cloud Shell
+
+AA. Launch cloudshell
+BB. create src directory: `mkdir -p src && cd src`
+CC. do same steps as above
+
+
+
 3.  Create a python virtual environment
+
+if on cloud shell could be similar to:
+
+```virtualenv  ~/.hello-github```
+
 4.  Create a Makefile
 5.  Create a requirements.txt
 
