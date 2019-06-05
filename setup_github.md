@@ -61,3 +61,7 @@ alias hello-github="cd ~/src/hello-github && source ~/.hello-github/bin/activate
 4.  Create a Makefile
 5.  Create a requirements.txt
 
+```
+touch Makefile && touch requirements.txt
+```
+
