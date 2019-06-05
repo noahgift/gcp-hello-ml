@@ -33,3 +33,8 @@ blah...
 ```
 D.  go to profile and add ssh-key (public key!!!).
 E.  git clone your repo using ssh.
+
+3.  Create a python virtual environment
+4.  Create a Makefile
+5.  Create a requirements.txt
+
