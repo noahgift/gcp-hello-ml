@@ -47,6 +47,7 @@ CC. do same steps as above
 if on cloud shell could be similar to:
 
 ```virtualenv  ~/.hello-github```
+```source ~/.hello-github/bin/activate```
 
 4.  Create a Makefile
 5.  Create a requirements.txt
