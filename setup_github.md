@@ -49,6 +49,15 @@ if on cloud shell could be similar to:
 ```virtualenv  ~/.hello-github```
 ```source ~/.hello-github/bin/activate```
 
+Optional add this to ```~/.bashrc``` and then ```source ~/.bashrc```
+
+```bash
+#alias
+alias hello-github="cd ~/src/hello-github && source ~/.hello-github/bin/activate"
+
+```
+
+
 4.  Create a Makefile
 5.  Create a requirements.txt
 
