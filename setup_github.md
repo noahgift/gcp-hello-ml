@@ -64,4 +64,4 @@ alias hello-github="cd ~/src/hello-github && source ~/.hello-github/bin/activate
 ```
 touch Makefile && touch requirements.txt
 ```
-
+get inspiration from this repo:  https://github.com/noahgift/myrepo
