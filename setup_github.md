@@ -144,3 +144,13 @@ jobs:
             #. venv/bin/activate
             #python manage.py test
 ```
+
+Make a very simple hello script:
+```touch hello.py```
+
+```python
+def say():
+    return "hello"
+print(say())
+```
+
