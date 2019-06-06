@@ -91,3 +91,11 @@ to add:
 ```git status```
 ```git commit -m "adding makefile"```
 ```git push``` #note you may need to configure your name and email.  Go ahead and do this.
+
+
+7.  Create circleci account and add project
+
+run these commands in shell:
+```
+mkdir -p .circleci && touch .circleci/config.yml
+```
