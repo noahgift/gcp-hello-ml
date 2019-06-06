@@ -99,3 +99,48 @@ run these commands in shell:
 ```
 mkdir -p .circleci && touch .circleci/config.yml
 ```
+
+8.  Cut and paste sample config.yml file from site
+
+
+```
+# Python CircleCI 2.0 configuration file
+#
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:3.6.1
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "requirements.txt" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
+      - run:
+          name: install dependencies
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            make install
+
+      - save_cache:
+          paths:
+            - ./venv
+          key: v1-dependencies-{{ checksum "requirements.txt" }}
+
+      # run tests!
+
+      - run:
+          name: run tests
+          command: |
+            #. venv/bin/activate
+            #python manage.py test
+```
