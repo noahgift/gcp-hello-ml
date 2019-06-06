@@ -136,13 +136,13 @@ jobs:
             - ./venv
           key: v1-dependencies-{{ checksum "requirements.txt" }}
 
-      # run tests!
+      # run lint!
 
       - run:
-          name: run tests
+          name: run lint
           command: |
-            #. venv/bin/activate
-            #python manage.py test
+            . venv/bin/activate
+            make lint
 ```
 
 Make a very simple hello script:
