@@ -1,6 +1,6 @@
 # gcp-hello-ml
 
-## Hello World
+## Hello World.
 
 1. Create Project
 
