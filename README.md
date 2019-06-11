@@ -6,7 +6,7 @@
 
 ![create project](https://user-images.githubusercontent.com/58792/58592055-8430da00-821c-11e9-976e-f9c832532a08.png)
 
-2.  Active cloud shell 
+2.  Activate cloud shell 
 
 3.  Refer to [hello world docs for python3 app engine](https://cloud.google.com/appengine/docs/standard/python3/quickstart)
 
@@ -54,7 +54,19 @@ git clone https://github.com/GoogleCloudPlatform/python-docs-samples
 cd python-docs-samples/appengine/standard_python37/hello_world
 ```
 
-9.  create and source the virtual environment:
+9.  Update Cloudshell image
+
+```bash
+git clone https://github.com/noahgift/gcp-hello-ml.git
+# Update .cloudshellcustomimagerepo.json with project and image name
+# TIP: enable "Boost Mode" in in Cloudshell
+cloudshell env build-local
+cloudshell env push
+cloudshell env update-default-image
+# Restart Cloudshell VM
+```
+
+10. create and source the virtual environment:
 
 ```bash
 virtualenv venv
