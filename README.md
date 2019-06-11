@@ -69,7 +69,7 @@ cloudshell env update-default-image
 10. create and source the virtual environment:
 
 ```bash
-virtualenv venv
+virtualenv --python $(which python) venv
 source venv/bin/activate
 ```
 
