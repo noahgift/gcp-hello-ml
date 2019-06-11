@@ -14,7 +14,7 @@
 
 verify project is working
 ```bash
-gcloud projects describe helloml-xxxx
+gcloud projects describe $GOOGLE_CLOUD_PROJECT
 ```
 output of command:
 ```bash
@@ -28,7 +28,7 @@ projectNumber: '881692383648'
 5.  You may want to verify you have the correct project and if not, do this to switch:
 
 ```bash
-gcloud config set project helloml-xxx
+gcloud config set project $GOOGLE_CLOUD_PROJECT
 ```
 
 6.  Create app engine app:
