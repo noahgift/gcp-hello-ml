@@ -19,3 +19,6 @@ https://cloud.google.com/cloud-build/docs/configuring-builds/build-test-deploy-a
 ## Enable correct permissions
 
 https://cloud.google.com/cloud-build/docs/securing-builds/set-service-account-permissions
+
+## Debug
+trigger
