@@ -21,8 +21,9 @@ https://cloud.google.com/cloud-build/docs/configuring-builds/build-test-deploy-a
 https://cloud.google.com/cloud-build/docs/securing-builds/set-service-account-permissions
 
 ## Debug
-trigger
+wish me luck!
 
 ## Cloud build app engine
 
 https://cloud.google.com/source-repositories/docs/quickstart-triggering-builds-with-source-repositories
+
