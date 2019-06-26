@@ -10,6 +10,12 @@ def hello():
     return 'Hello World!'
 
 
+@app.route('/newroute/<name>')
+def newroute(name):
+    """parameter"""
+    return "this was passed in: %s" % name
+
+
 @app.errorhandler(500)
 def server_error(e):
     logging.exception('An error occurred during a request.')
