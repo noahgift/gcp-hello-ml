@@ -15,3 +15,7 @@ cloud-build-local --dryrun=false --push .
 ## More info on cloud build (do other)
 
 https://cloud.google.com/cloud-build/docs/configuring-builds/build-test-deploy-artifacts
+
+## Enable correct permissions
+
+https://cloud.google.com/cloud-build/docs/securing-builds/set-service-account-permissions
