@@ -56,7 +56,7 @@ git clone https://github.com/GoogleCloudPlatform/python-docs-samples
 cd python-docs-samples/appengine/standard_python37/hello_world
 ```
 
-9.  Update Cloudshell image
+9.  Update Cloudshell image [NOTE this is optional....you don't need this]
 
 ```bash
 git clone https://github.com/noahgift/gcp-hello-ml.git
