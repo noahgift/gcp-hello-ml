@@ -9,7 +9,6 @@ def hello():
     """Return a friendly HTTP greeting."""
     return 'Hello World!'
 
-bad====
 @app.route('/newroute/<name>')
 def newroute(name):
     """parameter"""
