@@ -279,16 +279,14 @@ test it out in IPython
 
 ```python
 In [1]: from google.cloud import language
-   ...: from google.cloud.language import enums
-   ...: 
-   ...: from google.cloud.language import types
 In [2]: 
 In [2]: text = "LeBron James plays for the Cleveland Cavaliers."
    ...: client = language.LanguageServiceClient()
-   ...: document = types.Document(
-   ...:         content=text,
-   ...:         type=enums.Document.Type.PLAIN_TEXT)
-   ...: entities = client.analyze_entities(document).entities
+   ...: document = language.Document(
+   ...:         content=result,
+   ...:         type_=language.Document.Type.PLAIN_TEXT)
+   ...:         encoding_type = language.EncodingType.UTF8
+   ...:         entities = client.analyze_entities(request = {'document': document, 'encoding_type': encoding_type}).entities
 In [3]: entities
 ```
 
@@ -332,15 +330,14 @@ def wikipedia_route(company):
 
     # Imports the Google Cloud client library
     from google.cloud import language
-    from google.cloud.language import enums
-    from google.cloud.language import types
     result = wikipedia.summary(company, sentences=10)
 
     client = language.LanguageServiceClient()
-    document = types.Document(
+    document = language.Document(
         content=result,
-        type=enums.Document.Type.PLAIN_TEXT)
-    entities = client.analyze_entities(document).entities
+        type_=language.Document.Type.PLAIN_TEXT)
+    encoding_type = language.EncodingType.UTF8
+    entities = client.analyze_entities(request = {'document': document, 'encoding_type': encoding_type}).entities
     return str(entities)
 
 
